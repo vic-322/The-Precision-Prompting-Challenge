@@ -1,4 +1,4 @@
-# The-Precision-Prompting-Challenge
+The-Precision-Prompting-Challenge
 You are the newly appointed AI Strategy Lead at AfyaTech, a Nairobi-based health tech startup. Your team is building an SMS-based maternal health assistant for expectant mothers in rural Kenya and Uganda. Early testing shows your current AI prompts produce generic, urban-centric advice that ignores:
 Prompt A: Nutrition Advice (Localized)
 
@@ -31,7 +31,7 @@ MAP Framework
 M (Model Constraints): Account for travel time, transport costs (e.g., motorbike, walking), clinic days, and CHW availability
 A (Augmented Context): Rural clinics may operate on specific days; community health workers (CHWs) may assist locally
 P (Prompt Instruction):
-“Generate a friendly SMS reminder for a pregnant woman about an upcoming clinic visit. Consider that she may need to walk or use a motorbike, clinics may only open on certain days, and community health workers may be available. Suggest planning ahead and offer an alternative (e.g., contacting a CHW) if travel is difficult.”
+“Generate a friendly SMS reminder for a pregnant woman about an upcoming clinic visit. Consider that she may need to walk or use a motorbike, clinics may only open on certain days, and community health workers may be available. Suggest planning ahead and offer an alternative such as contacting a CHW if travel is difficult.
 
 Key Improvement:
 Improves usability and adherence by aligning reminders with real-world access constraints instead of assuming urban healthcare availability.
@@ -70,7 +70,7 @@ A: Missing local food context (Kakamega availability)
 P: Prompt too vague (“nutrition tips”)
 
 Redesigned Prompt:
-“Give nutrition advice for a pregnant woman in Kakamega County using only locally available foods such as sukuma wiki, maize flour (ugali), beans, sweet potatoes, groundnuts, and local fruits. Ensure affordability and cultural relevance.”
+“Give nutrition advice for a pregnant woman in Kakamega County using only locally available foods such as sukuma wiki, maize flour, ugali, beans, sweet potatoes, groundnuts, and local fruits. Ensure affordability and cultural relevance.”
 
 2. Verifier Pattern for Triage
 
